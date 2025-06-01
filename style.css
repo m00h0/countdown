@@ -1,5 +1,4 @@
 
-
 html {
   box-sizing: border-box;
 }
@@ -10,7 +9,6 @@ body {
   overflow-y: hidden;
   display: flex;
   align-items: center;
-
 }
 
 /* Video Background */
@@ -18,7 +16,6 @@ body {
   position: fixed;
   right: 0;
   bottom: 0;
-
 }
 
 video {
@@ -32,7 +29,6 @@ video {
   position: fixed;
   left: 0;
   top: 0;
-
 }
 
 /* Container */
@@ -46,7 +42,6 @@ video {
   z-index: 2;
   display: flex;
   justify-content: center;
-
 }
 
 .input-container {
@@ -79,7 +74,6 @@ input {
   border-radius: 20px;
   background: #fff;
   outline: none;
-
 }
 
 /* Button */
@@ -96,15 +90,12 @@ button {
   outline: none;
 }
 
-
-
 /* Countdown */
 ul {
   margin-left: -45px;
 }
 
 li {
-
   font-size: 30px;
   list-style-type: none;
   padding: 10px;
@@ -123,24 +114,20 @@ li span {
   top: 60px;
 }
 
-
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
   .video-background {
-
     height: 100vh;
     width: 100vw;
-
   }
-  
+
   video {
-  object-fit: cover;
-  object-position: 70%;
+    object-fit: cover;
+    object-position: 70%;
     margin-top: -1px;
   }
 
   .container {
-
     min-height: 245px;
     padding: 20px;
     margin: 10px;
