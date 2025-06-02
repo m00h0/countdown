@@ -13,7 +13,7 @@
         <source src="time.mp4" type="video/mp4">
      </video>
      <div class="container" >
-            <div class="input-container" id="input-container">
+            <div class="input-container" id="input-container" hidden>
                 <h1>Create A Custom Countdown</h1>
                 <form class="form" id="countdownForm">
                     <label for="title"> Title</label>
@@ -22,6 +22,21 @@
                     <input type="date" id="date-picker" required>
                     <button type="submit">Submit</button>
                 </form>
+            </div>
+            <div class="countdown" id="countdown" hidden>
+                <h1 id="countdown-title">Your Countdown</h1>
+                <ul>
+                    <li><span>00</span>Days</li>
+                    <li><span>00</span>Hours</li>
+                    <li><span>00</span>Minutes</li>
+                    <li><span>00</span>Seconds</li>
+                </ul>
+                <button id="countdown-button">Reset</button>
+            </div>
+            <div class="complete" id="complete" >
+                <h1 class="complete-title"> Completed Countdown</h1>
+                <h1 id="complete-info">Your Countdown is Complete! on 06-06-2025</h1>
+                <button id="complete-button">New Countdown</button>
             </div>
         </div>
     <script src="script.js"></script>
